@@ -75,7 +75,7 @@ class Owner
       cat.mood = "nervous"
       testing = cat
     end
-    
+    testing
     self.dogs.each do |dog|
       dog.mood = "nervous"
       testing = dog
