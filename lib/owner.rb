@@ -71,17 +71,18 @@ class Owner
   
   
   def sell_pets
+    
     self.cats.each do |cat|
       cat.mood = "nervous"
-      @testing1 = cat
+      cat
+      #@testing1 = cat
     end
-    @testing1
+    #@testing1
     self.dogs.each do |dog|
       dog.mood = "nervous"
-      @testing2 = dog
+      #@testing2 = dog
     end
-    @testing2
-    #binding.pry
+    #@testing2
   end
   
   
