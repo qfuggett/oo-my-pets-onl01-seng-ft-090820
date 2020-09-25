@@ -79,7 +79,7 @@ class Owner
     self.dogs.reject do |dog|
       dog.mood = "nervous"
     end
-    
+    self.dogs
   end
   
   
