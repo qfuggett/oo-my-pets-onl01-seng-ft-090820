@@ -72,14 +72,14 @@ class Owner
   
   
   def sell_pets
-    self.cats.reject do |cat|
+    self.cats.each do |cat|
       cat.mood = "nervous"
     end
 
-    self.dogs.reject do |dog|
+    self.dogs.each do |dog|
       dog.mood = "nervous"
     end
-    self.dogs
+    self.dogs.delete
   end
   
   
