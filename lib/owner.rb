@@ -75,12 +75,12 @@ class Owner
       cat.mood = "nervous"
       @testing1 = cat
     end
-    @testing1.clear
+    @testing1
     self.dogs.each do |dog|
       dog.mood = "nervous"
       @testing2 = dog
     end
-    @testing2.clear
+    @testing2
     #binding.pry
   end
   
