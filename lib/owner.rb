@@ -5,7 +5,6 @@ class Owner
   attr_reader :name, :species
   
   @@all = [ ]
-  @@count = [ ]
 
   def initialize(name)
     @name = name
