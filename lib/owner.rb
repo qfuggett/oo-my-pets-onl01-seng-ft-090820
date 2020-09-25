@@ -75,14 +75,13 @@ class Owner
     self.cats.each do |cat|
       cat.mood = "nervous"
       cat.owner = nil
-      #@testing1 = cat
     end
-    #@testing1
+    
     self.dogs.each do |dog|
       dog.mood = "nervous"
-      #@testing2 = dog
+      dog.owner = nil
     end
-    #@testing2
+
   end
   
   
