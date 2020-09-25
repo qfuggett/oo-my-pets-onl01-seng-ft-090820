@@ -84,7 +84,7 @@ class Owner
       @testing2 << dog
     end
     @testing2
-    #binding.pry
+    binding.pry
   end
   
   
